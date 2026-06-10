@@ -1,0 +1,190 @@
+body {
+  background-color: papayawhip;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0px;
+  padding: 20px;
+  background-image: linear-gradient(rgba(255,0,0,0.5), rgba(0,0,0,0)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBqeqZnqf21iScgwZt8w1XFy2xrVSyeX5ad3oG5PuyDw&s=10) ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+h3 {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+label, legend {
+  color: white ;
+}
+
+.input {
+  color: white;
+}
+
+
+.about {
+  background-color: #B90707;
+  background: transparent;
+  padding: 15px;
+  border-style: outset;
+  border-width: 7px;
+  border-radius: 15px;
+  box-shadow: 15px 20px;
+  transition: 1s;
+}
+
+.about:hover {
+  transform: scale(1.1);
+}
+
+.link {
+  font-size: 28px;
+  text-align: center;
+  color: white;
+}
+
+button {
+  background-color: #B30505;
+  margin: 2%;
+  padding: 10px ;
+  font-size: 10px;
+  font-weight: bold;
+  border-color: white;
+  border-radius: 15px;
+  box-shadow: 10px 10px;
+}
+
+
+.section {
+  background-color: #B90707;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  background: radial-gradient(red, black);
+  border-radius: 15px;
+}
+
+h1.section-one {
+  background-color: #1133AA;
+}
+
+h1.section-two {
+  background-color: #5851D8;
+}
+
+
+
+
+#main-header {
+  color: #FC4A4A;
+}
+
+.h1-ul {
+  text-align: center;
+  background-color: #B90707;
+  background: radial-gradient(red, black);
+  border-radius: 15px;
+  color: white;
+  padding: 15px;
+  
+}
+
+.ol {
+  border-style: outset;
+  background-color: #B90707;
+  font-size: 20px;
+  background: transparent;
+  border-radius: 15px;
+  border-width: 7px;
+  padding: 28px;
+  box-shadow: 10px 12px black;
+}
+
+
+
+.navbar ul {
+  list-style: none;
+  background-color: rgba(255, 11, 11, 1);
+  padding: 10px;
+  margin: 0px;
+  overflow: hidden;
+  position: fixed;
+  font-weight: bold;
+  border-radius: 15px;
+  box-shadow: 7px 5px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  
+}
+
+.navbar li {
+  float: left;
+}
+
+
+table, tr, th, td {
+  border: 3px solid red;
+  border-collapse: collapse;
+  margin: 0px;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(34, 40, 57, 1);
+  table-layout: auto;
+  color: white;
+}
+
+td:hover {
+  background-color: red;
+}
+
+td {
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  width: 10%;
+  height: 0%;
+}
+
+
+.table-row {
+  background-color: red;
+}
+
+td:nth-child(odd) {
+  background-color: #5C84FF;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  width: 290px;
+  margin-top: 50px;
+  padding: 50px;
+  box-shadow: 0 0 20px rgba(255, 21, 21, 1);
+  transition: 1s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+
+form {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+fieldset {
+  border-color: white;
+  border-radius: 15px;
+  
+}
